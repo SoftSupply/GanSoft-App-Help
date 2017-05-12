@@ -157,6 +157,13 @@
     </Content>
     <Content Include="scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="scripts\jquery-3.1.1.min.map" />
+    <Content Include="estate\default.cshtml" />
+    <Content Include="estate\automations.cshtml" />
+    <Content Include="estate\terminologi.cshtml" />
+    <Content Include="estate\dategeneral.cshtml" />
+    <Content Include="estate\cambio.cshtml" />
+    <Content Include="estate\parametros.cshtml" />
+    <Content Include="code\list.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
