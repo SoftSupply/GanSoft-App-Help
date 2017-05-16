@@ -152,48 +152,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\10cambiodehacienda.png" />
-    <Content Include="images\11codigos.png" />
-    <Content Include="images\12animales.png" />
-    <Content Include="images\13agregaranimal.png" />
-    <Content Include="images\14busquedaanimal.png" />
-    <Content Include="images\15eventos.png" />
-    <Content Include="images\16opciones.png" />
-    <Content Include="images\17indice.png" />
-    <Content Include="images\17inventario.png" />
-    <Content Include="images\18lotes.png" />
-    <Content Include="images\19estatusreproductivo.png" />
-    <Content Include="images\1Iniciosindatos.png" />
-    <Content Include="images\20estatusproductivo.png" />
-    <Content Include="images\21proximospartos.png" />
-    <Content Include="images\22proximossecados.png" />
-    <Content Include="images\23proximasrevisiones.png" />
-    <Content Include="images\24proximoscelos.png" />
-    <Content Include="images\25distribucionpartos.png" />
-    <Content Include="images\26planessanitarios.png" />
-    <Content Include="images\27listado.png" />
-    <Content Include="images\28sincronizacion.png" />
-    <Content Include="images\2perfildelusuario.png" />
-    <Content Include="images\3iniciodesesion.png" />
-    <Content Include="images\4menuprincipal.png" />
-    <Content Include="images\5hacienda.png" />
-    <Content Include="images\6datosgenerales.png" />
-    <Content Include="images\7terminologia.png" />
-    <Content Include="images\8parametros.png" />
-    <Content Include="images\9automatizaciones.png" />
-    <Content Include="images\Screenshot_2017-05-08-14-53-02.png" />
-    <Content Include="images\Screenshot_2017-05-08-14-53-26.png" />
-    <Content Include="images\Screenshot_2017-05-08-14-53-53.png" />
-    <Content Include="images\Screenshot_2017-05-08-14-54-47.png" />
-    <Content Include="images\Screenshot_2017-05-08-15-16-59.png" />
-    <Content Include="images\Screenshot_2017-05-08-15-17-13.png" />
-    <Content Include="images\Screenshot_2017-05-08-15-19-11.png" />
-    <Content Include="images\Screenshot_2017-05-08-15-19-53.png" />
-    <Content Include="images\Screenshot_2017-05-08-15-23-03.png" />
-    <Content Include="images\Screenshot_2017-05-08-15-23-16.png" />
-    <Content Include="images\Screenshot_2017-05-08-15-23-25.png" />
-    <Content Include="images\Screenshot_2017-05-12-09-58-18.png" />
-    <Content Include="images\Screenshot_2017-05-12-10-01-53.png" />
+    <Content Include="images\captures\agregaranimal.jpg" />
+    <Content Include="images\captures\automatizaciones.jpg" />
+    <Content Include="images\captures\buscaranimal.jpg" />
+    <Content Include="images\captures\cambiodehacienda.jpg" />
+    <Content Include="images\captures\codigos.jpg" />
+    <Content Include="images\captures\codigos1.jpg" />
+    <Content Include="images\captures\datosgenerales.jpg" />
+    <Content Include="images\captures\distribuciondepartos.jpg" />
+    <Content Include="images\captures\estatusproductivo.jpg" />
+    <Content Include="images\captures\estatusreproductivo.jpg" />
+    <Content Include="images\captures\eventos.jpg" />
+    <Content Include="images\captures\eventos1.jpg" />
+    <Content Include="images\captures\hacienda.jpg" />
+    <Content Include="images\captures\indice.jpg" />
+    <Content Include="images\captures\iniciodesesion.jpg" />
+    <Content Include="images\captures\iniciosindatos.jpg" />
+    <Content Include="images\captures\inventario.jpg" />
+    <Content Include="images\captures\listadeanimales.jpg" />
+    <Content Include="images\captures\logoapp.png" />
+    <Content Include="images\captures\logosoftsupply.png" />
+    <Content Include="images\captures\lote.jpg" />
+    <Content Include="images\captures\lote2.jpg" />
+    <Content Include="images\captures\lotes.jpg" />
+    <Content Include="images\captures\menuprincipal.jpg" />
+    <Content Include="images\captures\menuprincipal1.jpg" />
+    <Content Include="images\captures\opcinesdecontacto.jpg" />
+    <Content Include="images\captures\opciones.jpg" />
+    <Content Include="images\captures\parametros.jpg" />
+    <Content Include="images\captures\perfil.jpg" />
+    <Content Include="images\captures\planessanitarios.jpg" />
+    <Content Include="images\captures\proximasrevisiones.jpg" />
+    <Content Include="images\captures\proximoscelos.jpg" />
+    <Content Include="images\captures\proximospartos.jpg" />
+    <Content Include="images\captures\proximossecados.jpg" />
+    <Content Include="images\captures\registro.jpg" />
+    <Content Include="images\captures\registro1.jpg" />
+    <Content Include="images\captures\selecciondeevento.jpg" />
+    <Content Include="images\captures\sincronizacion.jpg" />
+    <Content Include="images\captures\sincronizacionactiva.jpg" />
+    <Content Include="images\captures\terminologia.jpg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
@@ -269,9 +267,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\captures\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

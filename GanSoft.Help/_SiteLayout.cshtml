@@ -53,14 +53,14 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="gs gs-farm" aria-hidden="true"></i>  Hacienda <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
                     <li><a href="~/estate/dategeneral"><i class="gs gs-general-data" aria-hidden="true"></i>  Datos generales</a></li>
-                    <li><a href="~/estate/terminologi"><i class="gs gs-terms" aria-hidden="true"></i>  Terminologia</a></li>
-                    <li><a href="~/estate/parametros"><i class="gs gs-params" aria-hidden="true"></i>  Parametros</a></li>
+                    <li><a href="~/estate/terminologi"><i class="gs gs-terms" aria-hidden="true"></i>  Terminología</a></li>
+                    <li><a href="~/estate/parametros"><i class="gs gs-params" aria-hidden="true"></i>  Parámetros</a></li>
                     <li><a href="~/estate/automations"><i class="gs gs-auto" aria-hidden="true"></i>  Automatizaciones</a></li>
                     <li><a href="~/estate/cambio"><i class="gs gs-farm" aria-hidden="true"></i>  Cambio de hacienda</a></li>
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="gs gs-codi" aria-hidden="true"></i>  Codigos <b class="caret pull-right"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="gs gs-codi" aria-hidden="true"></i>  Códigos <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
                     <li><a href="~/code/lista"><i class="gs gs-general-data" aria-hidden="true"></i>  Listado</a></li>
                 </ul>
@@ -68,7 +68,7 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="gs gs-animal" aria-hidden="true"></i>  Animales <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
-                    <li><a href="~/animals/animallist"><i class="gs gs-general-data" aria-hidden="true"></i>  Lista de Busqueda</a></li>
+                    <li><a href="~/animals/animallist"><i class="gs gs-general-data" aria-hidden="true"></i>  Lista de Búsqueda</a></li>
                 </ul>
             </li>
             <li><a href="~/event/evento.cshtml"><i class="gs gs-event" aria-hidden="true"></i>  Evento</a></li>
@@ -91,12 +91,14 @@
     </div>
 
     <header>
+        <img class="arriba" src="~/images/captures/logoapp.png" alt="Logo app" height="100px" />
         <div class="jumbotron">
             <div class="container">
                 <h1 class="text-center">@Page.Title</h1>
             </div>
         </div>
-    </header>
+        
+</header>
 
     <div id="body" class="container-fluid">
         @RenderBody()

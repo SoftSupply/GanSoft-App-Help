@@ -14,6 +14,8 @@ header .jumbotron
 {
     background-color: forestgreen;
     color: white;
+    height: 100px;
+    
 }
 
 .navmenu-nav > li>a>b.caret {
@@ -110,4 +112,30 @@ header .jumbotron
     color: #fff;
     text-decoration: none;
     background-color: transparent;
+}
+
+/* CAMBIOS */
+
+body {
+    background-color: #000000;
+}
+
+header .jumbotron .container h1 {
+    font-size: 40px;
+    margin-top: -15px;
+    font-style: italic;
+}
+
+p {
+    color: white;
+    margin: 0px 0px;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    
+}
+.arriba {
+float:right;
+top: 100px;
+margin: 0px 10px;
+
 }
