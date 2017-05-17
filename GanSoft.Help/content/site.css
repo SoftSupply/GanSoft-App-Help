@@ -128,14 +128,26 @@ header .jumbotron .container h1 {
 
 p {
     color: white;
-    margin: 0px 0px;
     font-size: 20px;
     font-family: 'Century Gothic';
-    
+    margin-top: 20px;
+            
 }
 .arriba {
-float:right;
-top: 100px;
-margin: 0px 10px;
-
+    float:right;
+    top: 100px;
+    margin: 5px 10px;
+    height: 90px;
 }
+
+.logocentro {
+    height: 225px;
+    margin: 70px 0px;
+}
+
+.captures {
+    height: 525px;
+    float: right;
+    margin: 10px;
+}
+
