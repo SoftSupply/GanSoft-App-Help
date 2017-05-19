@@ -196,17 +196,23 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="scripts\jquery-3.1.1.slim.min.map" />
-    <Content Include="scripts\jquery-3.1.1.min.map" />
-    <Content Include="estate\automations.cshtml" />
-    <Content Include="estate\terminologi.cshtml" />
-    <Content Include="estate\dategeneral.cshtml" />
-    <Content Include="estate\cambio.cshtml" />
-    <Content Include="estate\parametros.cshtml" />
-    <Content Include="code\lista.cshtml" />
-    <Content Include="event\evento.cshtml" />
-    <Content Include="animals\animallist.cshtml" />
-    <Content Include="option\opcion.cshtml" />
+    <Content Include="content\estate\default.cshtml" />
+    <Content Include="content\estate\automations.cshtml" />
+    <Content Include="content\estate\terminologi.cshtml" />
+    <Content Include="content\estate\dategeneral.cshtml" />
+    <Content Include="content\estate\cambio.cshtml" />
+    <Content Include="content\estate\parametros.cshtml" />
+    <Content Include="content\code\lista.cshtml" />
+    <Content Include="content\event\evento.cshtml" />
+    <Content Include="content\animals\animallist.cshtml" />
+    <Content Include="content\option\opcion.cshtml" />
+    <Content Include="bower.json" />
+    <None Include=".bowerrc">
+      <DependentUpon>bower.json</DependentUpon>
+    </None>
+    <None Include="restore.cmd">
+      <DependentUpon>bower.json</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -216,47 +222,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\bootstrap-theme.css" />
-    <Content Include="content\bootstrap-theme.min.css" />
-    <Content Include="content\bootstrap.css" />
-    <Content Include="content\bootstrap.min.css" />
-    <Content Include="content\font-awesome.css" />
-    <Content Include="content\font-awesome.min.css" />
-    <Content Include="content\gansoft.css" />
-    <Content Include="content\jasny-bootstrap.css" />
-    <Content Include="content\jasny-bootstrap.min.css" />
-    <Content Include="content\site.css" />
+    <Content Include="styles\gansoft.css" />
+    <Content Include="styles\site.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="content\bootstrap.min.css.map" />
-    <Content Include="content\bootstrap.css.map" />
-    <Content Include="content\bootstrap-theme.min.css.map" />
-    <Content Include="content\bootstrap-theme.css.map" />
-    <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="scripts\bootstrap.js" />
-    <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="content\jasny-bootstrap.css.map" />
     <Content Include="fonts\GanSoft.ttf" />
-    <Content Include="profile\default.cshtml" />
-    <Content Include="profile\signin.cshtml" />
-    <Content Include="profile\signup.cshtml" />
+    <Content Include="content\profile\default.cshtml" />
+    <Content Include="content\profile\signin.cshtml" />
+    <Content Include="content\profile\signup.cshtml" />
     <Content Include="Default.cshtml" />
-    <None Include="scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="scripts\jasny-bootstrap.js" />
-    <Content Include="scripts\jasny-bootstrap.min.js" />
-    <Content Include="scripts\jquery-3.1.1.js" />
-    <Content Include="scripts\jquery-3.1.1.min.js" />
-    <Content Include="scripts\jquery-3.1.1.slim.js" />
-    <Content Include="scripts\jquery-3.1.1.slim.min.js" />
     <None Include="scripts\_references.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
