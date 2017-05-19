@@ -177,6 +177,7 @@
     <Content Include="images\captures\lotes.jpg" />
     <Content Include="images\captures\menuprincipal.jpg" />
     <Content Include="images\captures\menuprincipal1.jpg" />
+    <Content Include="images\captures\muestraanimales.jpg" />
     <Content Include="images\captures\opcinesdecontacto.jpg" />
     <Content Include="images\captures\opciones.jpg" />
     <Content Include="images\captures\parametros.jpg" />
@@ -197,7 +198,6 @@
     </Content>
     <Content Include="scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="scripts\jquery-3.1.1.min.map" />
-    <Content Include="estate\default.cshtml" />
     <Content Include="estate\automations.cshtml" />
     <Content Include="estate\terminologi.cshtml" />
     <Content Include="estate\dategeneral.cshtml" />
