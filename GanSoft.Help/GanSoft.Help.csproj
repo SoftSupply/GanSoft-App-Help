@@ -170,8 +170,8 @@
     <Content Include="images\captures\iniciosindatos.jpg" />
     <Content Include="images\captures\inventario.jpg" />
     <Content Include="images\captures\listadeanimales.jpg" />
-    <Content Include="images\captures\logoapp.png" />
-    <Content Include="images\captures\logosoftsupply.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\softsupply.png" />
     <Content Include="images\captures\lote.jpg" />
     <Content Include="images\captures\lote2.jpg" />
     <Content Include="images\captures\lotes.jpg" />

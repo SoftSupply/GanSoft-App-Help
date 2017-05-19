@@ -1,5 +1,5 @@
 ﻿@{
-    Page.MainTitle = "GanSoft-App";
+    Page.MainTitle = "GanSoft App";
 }
 
 <!DOCTYPE html>
@@ -11,6 +11,11 @@
 
     <title>Manual @Page.MainTitle - @Page.Title</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-icon" content="~/images/logo.png">
 
     <!-- Styles -->
     <link href="~/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -42,10 +47,10 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i> Perfil <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
-                    <li><a href="~/content/profile/signin"><i class="fa fa-play" aria-hidden="true"></i>   Iniciar sesión</a></li>
-                    <li><a href="~/content/profile/signup"><i class="fa fa-registered" aria-hidden="true"></i>  Registro</a></li>
+                    <li><a href="~/content/profile/signin">Iniciar sesión</a></li>
+                    <li><a href="~/content/profile/signup">Registro</a></li>
                     @*<li class="divider"></li>*@
-                    <li><a href="~/content/profile"><i class="fa fa-info" aria-hidden="true"></i>  Información</a></li>
+                    <li><a href="~/content/profile">Información</a></li>
                 </ul>
             </li>
             <li class="dropdown">
@@ -89,27 +94,32 @@
         <a class="navbar-brand" href="#">@Page.MainTitle</a>
     </div>
 
-    <header>
-        <img class="arriba" src="~/images/captures/logoapp.png" alt="Logo app"/>
-        <div class="jumbotron">
-            <div class="container">
-                <h1 class="text-center">@Page.Title</h1>
+    <div id="body" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        @Page.Title
+                        @if (!string.IsNullOrEmpty(Page.SubTitle))
+                        {
+                            <small>@Page.SubTitle</small>
+                        }
+                    </h1>
             </div>
         </div>
-        
-</header>
-
-    <div id="body" class="container-fluid">
-        @RenderBody()
+        <div class="col-md-12">
+            @RenderBody()
+        </div>
     </div>
+</div>
 
-    <footer></footer>
+<footer></footer>
 
-    <!-- Scripts -->
-    <script src="~/components/jquery/dist/jquery.min.js"></script>
-    <script src="~/components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="~/components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
-    @RenderSection("Scripts", required: false)
+<!-- Scripts -->
+<script src="~/components/jquery/dist/jquery.min.js"></script>
+<script src="~/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+@RenderSection("Scripts", required: false)
 
 </body>
 </html>
