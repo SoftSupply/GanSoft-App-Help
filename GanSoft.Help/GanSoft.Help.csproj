@@ -152,46 +152,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\captures\agregaranimal.jpg" />
+    <Content Include="images\Badges\appstore.jpg" />
+    <Content Include="images\Badges\appstore.png" />
+    <Content Include="images\Badges\playstore.jpg" />
+    <Content Include="images\Badges\playstore.png" />
     <Content Include="images\captures\automatizaciones.jpg" />
-    <Content Include="images\captures\buscaranimal.jpg" />
     <Content Include="images\captures\cambiodehacienda.jpg" />
-    <Content Include="images\captures\codigos.jpg" />
     <Content Include="images\captures\codigos1.jpg" />
     <Content Include="images\captures\datosgenerales.jpg" />
-    <Content Include="images\captures\distribuciondepartos.jpg" />
-    <Content Include="images\captures\estatusproductivo.jpg" />
-    <Content Include="images\captures\estatusreproductivo.jpg" />
     <Content Include="images\captures\eventos.jpg" />
-    <Content Include="images\captures\eventos1.jpg" />
-    <Content Include="images\captures\hacienda.jpg" />
-    <Content Include="images\captures\indice.jpg" />
     <Content Include="images\captures\iniciodesesion.jpg" />
-    <Content Include="images\captures\iniciosindatos.jpg" />
-    <Content Include="images\captures\inventario.jpg" />
-    <Content Include="images\captures\listadeanimales.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\softsupply.png" />
-    <Content Include="images\captures\lote.jpg" />
-    <Content Include="images\captures\lote2.jpg" />
-    <Content Include="images\captures\lotes.jpg" />
-    <Content Include="images\captures\menuprincipal.jpg" />
-    <Content Include="images\captures\menuprincipal1.jpg" />
     <Content Include="images\captures\muestraanimales.jpg" />
-    <Content Include="images\captures\opcinesdecontacto.jpg" />
     <Content Include="images\captures\opciones.jpg" />
-    <Content Include="images\captures\parametros.jpg" />
     <Content Include="images\captures\perfil.jpg" />
-    <Content Include="images\captures\planessanitarios.jpg" />
-    <Content Include="images\captures\proximasrevisiones.jpg" />
-    <Content Include="images\captures\proximoscelos.jpg" />
-    <Content Include="images\captures\proximospartos.jpg" />
-    <Content Include="images\captures\proximossecados.jpg" />
     <Content Include="images\captures\registro.jpg" />
-    <Content Include="images\captures\registro1.jpg" />
-    <Content Include="images\captures\selecciondeevento.jpg" />
-    <Content Include="images\captures\sincronizacion.jpg" />
-    <Content Include="images\captures\sincronizacionactiva.jpg" />
     <Content Include="images\captures\terminologia.jpg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>

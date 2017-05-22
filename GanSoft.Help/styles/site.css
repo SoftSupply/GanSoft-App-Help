@@ -144,12 +144,6 @@ p {
     padding-bottom: 60px;
 }
 
-.captures {
-    height: 525px;
-    float: right;
-    margin: 10px;
-}
-
 .page-header
 {
     color: white;
@@ -161,3 +155,5 @@ p {
     content: '\A';
     white-space: pre;
 }
+
+ 
