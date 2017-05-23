@@ -133,12 +133,6 @@ p {
     margin-top: 20px;
             
 }
-.arriba {
-    float:right;
-    top: 100px;
-    margin: 5px 10px;
-    height: 90px;
-}
 
 #body {
     padding-bottom: 60px;
@@ -156,4 +150,7 @@ p {
     white-space: pre;
 }
 
- 
+.col-md-6 {
+    width: 150px;
+    top: 50px;
+}
