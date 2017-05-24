@@ -162,6 +162,7 @@
     <Content Include="images\captures\datosgenerales.jpg" />
     <Content Include="images\captures\eventos.jpg" />
     <Content Include="images\captures\iniciodesesion.jpg" />
+    <Content Include="images\captures\parametros.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\softsupply.png" />
     <Content Include="images\captures\muestraanimales.jpg" />
