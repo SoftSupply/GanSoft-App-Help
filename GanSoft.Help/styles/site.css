@@ -120,12 +120,6 @@ body {
     background-color: #000000;
 }
 
-header .jumbotron .container h1 {
-    font-size: 40px;
-    margin-top: -15px;
-    font-style: italic;
-}
-
 p {
     color: white;
     font-size: 20px;
