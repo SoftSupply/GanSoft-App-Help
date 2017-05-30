@@ -10,14 +10,6 @@
   }
 }
 
-header .jumbotron
-{
-    background-color: forestgreen;
-    color: white;
-    height: 100px;
-    
-}
-
 .navmenu-nav > li>a>b.caret {
     margin-top: 8px;
 }
@@ -147,4 +139,11 @@ p {
 .col-md-6 {
     width: 150px;
     top: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    top: 0px;
 }

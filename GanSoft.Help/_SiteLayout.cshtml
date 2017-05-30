@@ -1,5 +1,5 @@
 ﻿@{
-    Page.MainTitle = "GanSoft App";
+    Page.MainTitle = "Menú principal";
 }
 
 <!DOCTYPE html>
@@ -48,39 +48,58 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i> Perfil <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
+                    <li><a href="~/content/profile/pprincipal.cshtml"><i class="fa fa-product-hunt" aria-hidden="true"></i>   Principal</a></li>
                     <li><a href="~/content/profile/signin"><i class="fa fa-power-off" aria-hidden="true"></i>   Iniciar sesión</a></li>
-                    <li><a href="~/content/profile/signup"><i class="fa fa-user-plus" aria-hidden="true"></i>   Registro</a></li>
-                    @*<li class="divider"></li>*@
+                    <li><a href="~/content/profile/signup"><i class="fa fa-user-plus" aria-hidden="true"></i>   Registrarse</a></li>
                     <li><a href="~/content/profile"><i class="fa fa-info" aria-hidden="true"></i>   Información</a></li>
                 </ul>
             </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-university" aria-hidden="true"></i>  Hacienda <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
-                    <li><a href="~/content/estate/dategeneral"><i class="fa fa-database" aria-hidden="true"></i>  Datos generales</a></li>
-                    <li><a href="~/content/estate/terminologi"><i class="fa fa-tasks" aria-hidden="true"></i>  Terminología</a></li>
-                    <li><a href="~/content/estate/parametros"><i class="fa fa-file-text" aria-hidden="true"></i>  Parámetros</a></li>
-                    <li><a href="~/content/estate/automations"><i class="fa fa-magic" aria-hidden="true"></i>  Automatizaciones</a></li>
-                    <li><a href="~/content/estate/cambio"><i class="fa fa-random" aria-hidden="true"></i>  Cambio de hacienda</a></li>
+                    <li><a href="~/content/estate/generaldate.cshtml"><i class="fa fa-database" aria-hidden="true"></i>  Datos generales</a></li>
+                    <li><a href="~/content/estate/terminologi.cshtml"><i class="fa fa-tasks" aria-hidden="true"></i>  Terminología</a></li>
+                    <li><a href="~/content/estate/settings.cshtml"><i class="fa fa-file-text" aria-hidden="true"></i>  Parámetros</a></li>
+                    <li><a href="~/content/estate/automations.cshtml"><i class="fa fa-magic" aria-hidden="true"></i>  Automatizaciones</a></li>
+                    <li><a href="~/content/estate/change.cshtml"><i class="fa fa-random" aria-hidden="true"></i>  Cambio de hacienda</a></li>
                 </ul>
             </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-code" aria-hidden="true"></i>  Códigos <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
-                    <li><a href="~/content/code/lista"><i class="fa fa-list-alt" aria-hidden="true"></i>  Listado</a></li>
+                    <li><a href="~/content/code/cprincipal.cshtml"><i class="fa fa-product-hunt" aria-hidden="true"></i>  Principal</a></li>
+                    <li><a href="~/content/code/healthplan.cshtml"><i class="fa fa-list-alt" aria-hidden="true"></i>  Plan sanitario</a></li>
+                    <li><a href="~/content/code/actionlist.cshtml"><i class="fa fa-th-list" aria-hidden="true"></i>  Listado de acciones</a></li>
                 </ul>
             </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-buysellads" aria-hidden="true"></i>  Animales <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
-                    <li><a href="~/content/animals/animallist"><i class="fa fa-search" aria-hidden="true"></i>  Lista de Búsqueda</a></li>
+                    <li><a href="~/content/animals/aprincipal.cshtml"><i class="fa fa-product-hunt" aria-hidden="true"></i>  Principal</a></li>
+                    <li><a href="~/content/animals/distribution.cshtml"><i class="fa fa-globe" aria-hidden="true"></i>  Distribución</a></li>
+                    <li><a href="~/content/animals/detail.cshtml"><i class="fa fa-asterisk" aria-hidden="true"></i>  Detalles del animal</a></li>
                 </ul>
             </li>
-            <li><a href="~/content/event/evento.cshtml"><i class="fa fa-calendar" aria-hidden="true"></i>  Evento</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Eventos <b class="caret pull-right"></b></a>
+                <ul class="dropdown-menu navmenu-nav" role="menu">
+                    <li><a href="~/content/event/lotchange.cshtml"><i class="fa fa-retweet" aria-hidden="true"></i>  Cambios de lote</a></li>
+                    <li><a href="~/content/event/notificationinv.cshtml"><i class="fa fa-comment" aria-hidden="true"></i>  Notificación de inventario</a></li>
+                    <li><a href="~/content/event/corporal.cshtml"><i class="fa fa-balance-scale" aria-hidden="true"></i>  Peso Corporal</a></li>
+                    <li><a href="~/content/event/conditioncor.cshtml"><i class="fa fa-pie-chart" aria-hidden="true"></i>  Condición corporal</a></li>
+                    <li><a href="~/content/event/service.cshtml"><i class="fa fa-area-chart" aria-hidden="true"></i>  Servicio</a></li>
+                    <li><a href="~/content/event/review.cshtml"><i class="fa fa-eye" aria-hidden="true"></i>  Revisión</a></li>
+                    <li><a href="~/content/event/birth.cshtml"><i class="fa fa-heart" aria-hidden="true"></i>  Parto</a></li>
+                    <li><a href="~/content/event/milk.cshtml"><i class="fa fa-beer" aria-hidden="true"></i>  Pesajes de leche</a></li>
+                    <li><a href="~/content/event/drying.cshtml"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  Secado</a></li>
+                    <li><a href="~/content/event/otherchange.cshtml"><i class="fa fa-circle-o-notch" aria-hidden="true"></i>  Otros cambios</a></li>
+                </ul>
+            </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear" aria-hidden="true"></i>  Opciones <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
-                    <li><a href="~/content/option/opcion"><i class="fa fa-refresh" aria-hidden="true"></i>  Sincronización</a></li>
+                    <li><a href="~/content/option/oprincipal.cshtml"><i class="fa fa-product-hunt" aria-hidden="true"></i>  Principal</a></li>
+                    <li><a href="~/content/option/synchronization.cshtml"><i class="fa fa-refresh" aria-hidden="true"></i>  Sincronización</a></li>
                 </ul>
             </li>
 

@@ -176,17 +176,32 @@
     <Content Include="content\estate\default.cshtml" />
     <Content Include="content\estate\automations.cshtml" />
     <Content Include="content\estate\terminologi.cshtml" />
-    <Content Include="content\estate\dategeneral.cshtml" />
-    <Content Include="content\estate\cambio.cshtml" />
-    <Content Include="content\estate\parametros.cshtml" />
-    <Content Include="content\code\lista.cshtml" />
-    <Content Include="content\event\evento.cshtml" />
-    <Content Include="content\animals\animallist.cshtml" />
-    <Content Include="content\option\opcion.cshtml" />
+    <Content Include="content\estate\generaldate.cshtml" />
+    <Content Include="content\estate\change.cshtml" />
+    <Content Include="content\estate\settings.cshtml" />
+    <Content Include="content\code\actionlist.cshtml" />
+    <Content Include="content\event\conditioncor.cshtml" />
+    <Content Include="content\animals\aprincipal.cshtml" />
+    <Content Include="content\option\synchronization.cshtml" />
     <Content Include="bower.json" />
     <None Include=".bowerrc">
       <DependentUpon>bower.json</DependentUpon>
     </None>
+    <Content Include="content\profile\pprincipal.cshtml" />
+    <Content Include="content\code\healthplan.cshtml" />
+    <Content Include="content\code\cprincipal.cshtml" />
+    <Content Include="content\animals\detail.cshtml" />
+    <Content Include="content\animals\distribution.cshtml" />
+    <Content Include="content\event\corporal.cshtml" />
+    <Content Include="content\event\lotchange.cshtml" />
+    <Content Include="content\event\notificationinv.cshtml" />
+    <Content Include="content\event\service.cshtml" />
+    <Content Include="content\event\review.cshtml" />
+    <Content Include="content\event\birth.cshtml" />
+    <Content Include="content\event\milk.cshtml" />
+    <Content Include="content\event\otherchange.cshtml" />
+    <Content Include="content\event\drying.cshtml" />
+    <Content Include="content\option\oprincipal.cshtml" />
     <None Include="restore.cmd">
       <DependentUpon>bower.json</DependentUpon>
     </None>
