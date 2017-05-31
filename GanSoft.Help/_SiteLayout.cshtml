@@ -68,8 +68,8 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-code" aria-hidden="true"></i>  Códigos <b class="caret pull-right"></b></a>
                 <ul class="dropdown-menu navmenu-nav" role="menu">
                     <li><a href="~/content/code/cprincipal.cshtml"><i class="fa fa-product-hunt" aria-hidden="true"></i>  Principal</a></li>
-                    <li><a href="~/content/code/healthplan.cshtml"><i class="fa fa-list-alt" aria-hidden="true"></i>  Plan sanitario</a></li>
                     <li><a href="~/content/code/actionlist.cshtml"><i class="fa fa-th-list" aria-hidden="true"></i>  Listado de acciones</a></li>
+                    <li><a href="~/content/code/healthplan.cshtml"><i class="fa fa-list-alt" aria-hidden="true"></i>  Plan sanitario</a></li>
                 </ul>
             </li>
             <li class="dropdown">
@@ -125,23 +125,32 @@
                             <small>@Page.SubTitle</small>
                         }
                     </h1>
+                </div>
+            </div>
+            <div class="col-md-12">
+                @RenderBody()
             </div>
         </div>
-        <div class="col-md-12">
-            @RenderBody()
-        </div>
     </div>
-</div>
 
-<footer></footer>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <hr />
+                <small>
+                    © @(DateTime.Now.Year) - TDPro, C.A. J-29636526-1, Maracaibo - Venezuela / 01/05/2017 Version 1.0.0 Version App 1.1.22.47
+                </small>
+            </div>
+        </div>
+    </footer>
 
-<!-- Scripts -->
-<script src="~/components/jquery/dist/jquery.min.js"></script>
-<script src="~/components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="~/components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
-<script src="~/components/lightbox2/dist/js/lightbox.min.js"></script>
-@RenderSection("Scripts", required: false)
-   
- 
+    <!-- Scripts -->
+    <script src="~/components/jquery/dist/jquery.min.js"></script>
+    <script src="~/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+    <script src="~/components/lightbox2/dist/js/lightbox.min.js"></script>
+    @RenderSection("Scripts", required: false)
+
+
 </body>
 </html>
