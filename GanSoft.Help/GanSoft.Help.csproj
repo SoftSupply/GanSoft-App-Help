@@ -160,11 +160,17 @@
     <Content Include="images\captures\Animales_principal.jpg" />
     <Content Include="images\captures\automatizaciones.jpg" />
     <Content Include="images\captures\cambiodehacienda.jpg" />
+    <Content Include="images\captures\cambion_sin_hacienda.jpg" />
     <Content Include="images\captures\cambios_de_lotes.jpg" />
+    <Content Include="images\captures\cambio_de_hacienda.jpg" />
     <Content Include="images\captures\codigos1.jpg" />
     <Content Include="images\captures\contacto.jpg" />
     <Content Include="images\captures\datosgenerales.jpg" />
     <Content Include="images\captures\detalles_del_animal.jpg" />
+    <Content Include="images\captures\detalles_del_animal_crecimiento.jpg" />
+    <Content Include="images\captures\detalles_del_animal_general.jpg" />
+    <Content Include="images\captures\detalles_del_animal_produccion.jpg" />
+    <Content Include="images\captures\detalles_del_animal_reproduccion.jpg" />
     <Content Include="images\captures\distribucion_estatus_reproductivo.jpg" />
     <Content Include="images\captures\distribucion_inventario.jpg" />
     <Content Include="images\captures\distribucion_lotes.jpg" />
@@ -186,13 +192,16 @@
     <Content Include="images\captures\secado_destete.jpg" />
     <Content Include="images\captures\servicio.jpg" />
     <Content Include="images\captures\sincronizacion.jpg" />
+    <Content Include="images\captures\terminologia_h.jpg" />
+    <Content Include="images\captures\terminologia_m.jpg" />
+    <Content Include="images\captures\terminologia_otros.jpg" />
+    <Content Include="images\captures\terminologia_principal.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\softsupply.png" />
     <Content Include="images\captures\muestraanimales.jpg" />
     <Content Include="images\captures\opciones.jpg" />
     <Content Include="images\captures\perfil.jpg" />
     <Content Include="images\captures\registro.jpg" />
-    <Content Include="images\captures\terminologia.jpg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
