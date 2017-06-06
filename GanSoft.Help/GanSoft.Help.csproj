@@ -159,11 +159,11 @@
     <Content Include="images\captures\Agregar_un_animal.jpg" />
     <Content Include="images\captures\Animales_principal.jpg" />
     <Content Include="images\captures\automatizaciones.jpg" />
-    <Content Include="images\captures\cambiodehacienda.jpg" />
     <Content Include="images\captures\cambion_sin_hacienda.jpg" />
     <Content Include="images\captures\cambios_de_lotes.jpg" />
     <Content Include="images\captures\cambio_de_hacienda.jpg" />
     <Content Include="images\captures\codigos1.jpg" />
+    <Content Include="images\captures\Condicion_corporal.jpg" />
     <Content Include="images\captures\contacto.jpg" />
     <Content Include="images\captures\datosgenerales.jpg" />
     <Content Include="images\captures\detalles_del_animal.jpg" />
@@ -177,6 +177,7 @@
     <Content Include="images\captures\distribucion_productivo.jpg" />
     <Content Include="images\captures\eventos.jpg" />
     <Content Include="images\captures\iniciodesesion.jpg" />
+    <Content Include="images\captures\Inicio_sin_datos.jpg" />
     <Content Include="images\captures\Menu_principal.jpg" />
     <Content Include="images\captures\Menu_principal_2.jpg" />
     <Content Include="images\captures\notificacion_de_inventario.jpg" />
