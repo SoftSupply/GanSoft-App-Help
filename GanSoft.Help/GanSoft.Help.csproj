@@ -188,7 +188,6 @@
     <Content Include="content\profile\pprincipal.cshtml" />
     <Content Include="content\profile\signin.cshtml" />
     <Content Include="content\profile\signup.cshtml" />
-    <Content Include="fonts\GanSoft.ttf" />
     <Content Include="bower.json" />
     <Content Include="Default.cshtml" />
     <Content Include="packages.config" />

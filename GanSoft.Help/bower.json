@@ -1,6 +1,6 @@
 {
   "name": "GanSoft-App-Help",
-  "homepage": "https://github.com/TDProCA/GanSoft-App-Help",
+  "homepage": "https://github.com/SoftSupply/GanSoft-App-Help",
   "description": "",
   "main": "",
   "license": "MIT",
@@ -17,7 +17,8 @@
     "jquery": "^3.2.1",
     "font-awesome": "^4.7.0",
     "jasny-bootstrap": "^3.1.3",
-    "lightbox2": "^2.9.0"
+    "lightbox2": "^2.9.0",
+    "font-gansoft": "^1.0.0"
   },
   "resolutions": {
     "jquery": ">= 1.9.0"
