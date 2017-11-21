@@ -1,0 +1,359 @@
+{
+  "Name": "GanSoftApp",
+  "Title": "GanSoft App",
+  "Description": "Software especializado para el manejo de rebaños",
+  "Index": [
+    {
+      "Title": "<b>Inicio</b>",
+      "Items": [
+        {
+          "Title": "Requerimientos",
+          "Link": "GanSoftPro?id=Inicio&key=Requerimientos"
+        },
+        {
+          "Title": "Instalación",
+          "Link": "GanSoftPro?id=Inicio&key=Instalacion"
+        },
+        {
+          "Title": "Configuración",
+          "Link": "GanSoftPro?id=Inicio&key=Configuracion"
+        },
+        {
+          "Title": "Navegación",
+          "Link": "GanSoftPro?id=Inicio&key=Navegacion"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Archivo</b>",
+      "Items": [
+        {
+          "Title": "Cambiar conexión",
+          "Link": "GanSoftPro?id=Archivo&key=Archive"
+        },
+        {
+          "Title": "Importar datos",
+          "Link": "GanSoftPro?id=Archivo&key=ImportarDatos"
+        },
+        {
+          "Title": "Plantillas de importación",
+          "Link": "GanSoftPro?id=Archivo&key=PlantillasdeImportacion"
+        },
+        {
+          "Title": "Respaldar datos",
+          "Link": "GanSoftPro?id=Archivo&key=RespaldarDatos"
+        },
+        {
+          "Title": "Restaurar datos",
+          "Link": "GanSoftPro?id=Archivo&key=RestaurarDatos"
+        },
+        {
+          "Title": "Cerrar sesión",
+          "Link": "GanSoftPro?id=Archivo&key=CerrarSesion"
+        },
+        {
+          "Title": "Salir",
+          "Link": "GanSoftPro?id=Archivo&key=Salir"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Ver</b>",
+      "Items": [
+        {
+          "Title": "Barras de Menús",
+          "Link": "GanSoftPro?id=Ver&key=Barras"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Hacienda</b>",
+      "Items": [
+        {
+          "Title": "Seleccionar",
+          "Link": "GanSoftPro?id=Hacienda&key=Seleccionar"
+        },
+        {
+          "Title": "Datos generales",
+          "Link": "GanSoftPro?id=Hacienda&key=datosgenerales"
+        },
+        {
+          "Title": "Configuración",
+          "Link": "GanSoftPro?id=Hacienda&key=Configuracion"
+        },
+        {
+          "Title": "Inventario",
+          "Link": "GanSoftPro?id=Hacienda&key=Inventario"
+        },
+        {
+          "Title": "Avisos",
+          "Link": "GanSoftPro?id=Hacienda&key=Avisos"
+        },
+        {
+          "Title": "Planes sanitarios",
+          "Link": "GanSoftPro?id=Hacienda&key=PlanesSanitarios"
+        },
+        {
+          "Title": "Código",
+          "Link": "GanSoftPro?id=Hacienda&key=Codigo"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Registros</b>",
+      "Items": [
+        {
+          "Title": "Ingresar animal",
+          "Link": "GanSoftPro?id=Registros&key=IngresarAnimal"
+        },
+        {
+          "Title": "Buscar animal",
+          "Link": "GanSoftPro?id=Registros&key=Buscaranimal"
+        },
+        {
+          "Title": "Eliminar animal",
+          "Link": "GanSoftPro?id=Registros&key=EliminarAnimal"
+        },
+        {
+          "Title": "Recuperar animales",
+          "Link": "GanSoftPro?id=Registros&key=RecuperarAnimales"
+        },
+        {
+          "Title": "Trasladar animales",
+          "Link": "GanSoftPro?id=Registros&key=TrasladarAnimales"
+        },
+        {
+          "Title": "Cambios de estado",
+          "Link": "GanSoftPro?id=Registros&key=CambiosdeEstado"
+        },
+        {
+          "Title": "Árbol genealógico",
+          "Link": "GanSoftPro?id=Registros&key=ArbolGenealogico"
+        },
+        {
+          "Title": "Datos generales",
+          "Link": "GanSoftPro?id=Registros&key=DatosGenerales"
+        },
+        {
+          "Title": "Reproductores",
+          "Link": "GanSoftPro?id=Registros&key=Reproductores"
+        },
+        {
+          "Title": "Vientres",
+          "Link": "GanSoftPro?id=Registros&key=Vientres"
+        },
+        {
+          "Title": "No vientres",
+          "Link": "GanSoftPro?id=Registros&key=NoVientres"
+        },
+        {
+          "Title": "Técnicos",
+          "Link": "GanSoftPro?id=Registros&key=Tecnicos"
+        },
+        {
+          "Title": "Hierros y señales",
+          "Link": "GanSoftPro?id=Registros&key=HierrosySeñales"
+        },
+        {
+          "Title": "Movimientos de inventario",
+          "Link": "GanSoftPro?id=Registros&key=MovimientosdeInventario"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Eventos</b>",
+      "Items": [
+        {
+          "Title": "Servicios",
+          "Link": "GanSoftPro?id=Eventos&key=Servicios"
+        },
+        {
+          "Title": "Revisiones",
+          "Link": "GanSoftPro?id=Eventos&key=Revisiones"
+        },
+        {
+          "Title": "Partos",
+          "Link": "GanSoftPro?id=Eventos&key=Partos"
+        },
+        {
+          "Title": "Abortos",
+          "Link": "GanSoftPro?id=Eventos&key=Abortos"
+        },
+        {
+          "Title": "Celos sin servicio",
+          "Link": "GanSoftPro?id=Eventos&key=Celosinservicio"
+        },
+        {
+          "Title": "Lactancias inducidas",
+          "Link": "GanSoftPro?id=Eventos&key=Lactanciasinducidas"
+        },
+        {
+          "Title": "Producción de embriones",
+          "Link": "GanSoftPro?id=Eventos&key=Producciondeembriones"
+        },
+        {
+          "Title": "Pesajes de leche",
+          "Link": "GanSoftPro?id=Eventos&key=Pesajesdeleche"
+        },
+        {
+          "Title": "Secado destete",
+          "Link": "GanSoftPro?id=Eventos&key=Secadodestete"
+        },
+        {
+          "Title": "Pruebas de mastitis",
+          "Link": "GanSoftPro?id=Eventos&key=Pruebasdemastitis"
+        },
+        {
+          "Title": "Pesos corporales",
+          "Link": "GanSoftPro?id=Eventos&key=Pesoscorporales"
+        },
+        {
+          "Title": "Condiciones corporales",
+          "Link": "GanSoftPro?id=Eventos&key=Condicionescorporales"
+        },
+        {
+          "Title": "Cambios de locación",
+          "Link": "GanSoftPro?id=Eventos&key=Cambiosdelocacion"
+        },
+        {
+          "Title": "Notificación de inventario",
+          "Link": "GanSoftPro?id=Eventos&key=Notificaciondeinventario"
+        },
+        {
+          "Title": "Clínicos",
+          "Link": "GanSoftPro?id=Eventos&key=Clinicos"
+        },
+        {
+          "Title": "Identificadores electrónicos",
+          "Link": "GanSoftPro?id=Eventos&key=Identificadoreselectronicos"
+        },
+        {
+          "Title": "Hierros y señales",
+          "Link": "GanSoftPro?id=Eventos&key=Hierrosyseñales"
+        },
+        {
+          "Title": "Otros cambios",
+          "Link": "GanSoftPro?id=Eventos&key=Otroscambios"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Estadísticas</b>",
+      "Items": [
+        {
+          "Title": "Producción",
+          "Link": "GanSoftPro?id=Estadisticas&key=Produccion"
+        },
+        {
+          "Title": "Reproducción",
+          "Link": "GanSoftPro?id=Estadisticas&key=Reproduccion"
+        },
+        {
+          "Title": "Crecimiento",
+          "Link": "GanSoftPro?id=Estadisticas&key=Crecimiento"
+        },
+        {
+          "Title": "Pesajes de leche",
+          "Link": "GanSoftPro?id=Estadisticas&key=Pesajesdeleche"
+        },
+        {
+          "Title": "Cierres",
+          "Link": "GanSoftPro?id=Estadisticas&key=Cierres"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Reportes</b>",
+      "Items": [
+        {
+          "Title": "Producción",
+          "Link": "GanSoftPro?id=Reportes&key=Generador"
+        },
+        {
+          "Title": "Datos generales",
+          "Link": "GanSoftPro?id=Reportes&key=Datosgenerales"
+        },
+        {
+          "Title": "Árbol genealógico",
+          "Link": "GanSoftPro?id=Reportes&key=Arbolgenealogico"
+        },
+        {
+          "Title": "Reproductores",
+          "Link": "GanSoftPro?id=Reportes&key=Reproductores"
+        },
+        {
+          "Title": "Vientres",
+          "Link": "GanSoftPro?id=Reportes&key=Vientres"
+        },
+        {
+          "Title": "No vientres",
+          "Link": "GanSoftPro?id=Reportes&key=Novientres"
+        },
+        {
+          "Title": "Técnicos",
+          "Link": "GanSoftPro?id=Reportes&key=Tecnicos"
+        },
+        {
+          "Title": "Históricos",
+          "Link": "GanSoftPro?id=Reportes&key=Historicos"
+        },
+        {
+          "Title": "Otros reportes",
+          "Link": "GanSoftPro?id=Reportes&key=OtrosReportes"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Herramientas</b>",
+      "Items": [
+        {
+          "Title": "Opciones",
+          "Link": "GanSoftPro?id=Herramientas&key=Opciones"
+        },
+        {
+          "Title": "Usuarios",
+          "Link": "GanSoftPro?id=Herramientas&key=Usuarios"
+        },
+        {
+          "Title": "Herramientas",
+          "Link": "GanSoftPro?id=Herramientas&key=Niveles"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Ventanas</b>",
+      "Items": [
+        {
+          "Title": "Ventanas",
+          "Link": "GanSoftPro?id=Menu principal&key=Ventana"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Ayuda</b>",
+      "Items": [
+        {
+          "Title": "Inicio",
+          "Link": "GanSoftPro?id=Ayuda&key=Inicio"
+        },
+        {
+          "Title": "Contenido",
+          "Link": "GanSoftPro?id=Ayuda&key=Contenido"
+        },
+        {
+          "Title": "Acercade",
+          "Link": "GanSoftPro?id=Ayuda&key=Acercade"
+        },
+        {
+          "Title": "Actualizaciones",
+          "Link": "GanSoftPro?id=Ayuda&key=Actualizaciones"
+        },
+        {
+          "Title": "Comentarios",
+          "Link": "GanSoftPro?id=Ayuda&key=Comentarios"
+        }
+      ]
+    }
+
+  ]
+}

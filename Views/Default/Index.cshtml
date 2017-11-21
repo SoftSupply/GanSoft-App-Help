@@ -1,0 +1,25 @@
+@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = ViewContext.RouteData.Values["controller"];
+    ViewBag.SubTitle = ViewContext.RouteData.Values["action"];
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <p class="lead">
+            Guía que describe detalladamente todas las funciones del sistema GanSoft Pro para una mejor experiencia del usuario.
+        </p>
+    </div>
+    <div class="col-md-2 text-center">
+        <img class="img-responsive" src="~/images/gansoft.svg" alt="Logo" />
+    </div>
+    <div class="col-md-10">
+        <p>
+            Programa computarizado y diseñado para el control de registros de rebaños, desarrollado con tecnología de vanguardia
+            que lo ha convertido en una sencilla y completa herramienta para optimizar el manejo de múltiples sistemas de producción
+            animal. Es un producto de excelente calidad, con amplia experiencia en el área, implementado en más de cuatro mil fincas
+            a nivel nacional e internacional.
+        </p>
+    </div>
+</div>
