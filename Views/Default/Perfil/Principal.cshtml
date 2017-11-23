@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Principal";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            En esta sección del manual podrá visualizar el menú principal en un formato que divide las diferentes opciones por categorías
+            para brindar una mejor orientación al usuario acerca de las funciones de la aplicación.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Principal">Principal</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Principal">Principal</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    En las cuales se encuentran:
+                </p>
+                <ul>
+                    <li>Inventario: es la forma de dividir el ganado dependiendo de su propósito productivo                 </li>
+                    <li>Lotes: representa la manera de ubicar el ganado en la hacienda según los valores definidos          </li>
+                    <li>Estatus reproductivo: especifica los valores del animal y verificar que este acto para reproducirse </li>
+                    <li>Estatus productivo: representa los valores de producción de los animales de la hacienda             </li>
+                    <li>Próximos partos: prevé las fechas del ganado próximo a parir                                        </li>
+                    <li>
+                        Próximos secados: prevé las fechas para el descanso programado de las vacas
+                        Como entre otros.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/Menu_principal.jpg" class="thumbnail" data-lightbox="menuprincipal" data-title="Menú principal">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/Menu_principal.jpg" alt="Menú principal" />
+                </a>
+                <a href="~/Areas/GanSoftApp/Content/images/captures/Inicio_sin_datos.jpg" data-lightbox="menuprincipal" data-title="Menú sin datos"></a>
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Cambios de lote";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Aquí podrá notificar los cambios de la última locación de sus animales dentro de la hacienda
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Cambiosdelote">Cambios de lote</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Cambiosdelote">Cambios de lote</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Por otra parte se muestra también la fecha anterior de la última visualización del ganado en ese lugar específico.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/cambios_de_lotes.jpg" class="thumbnail" data-lightbox="Cambiosdelote" data-title="Cambios de lote">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/cambios_de_lotes.jpg" alt="Cambios de lote" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

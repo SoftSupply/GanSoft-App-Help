@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Peso corporal";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Es la forma de reportar el peso histórico del animal de manera que pueda apreciar un total completo de las libras o kilos del
+            animal
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Pesocorporal">Peso corporal</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Pesocorporal">Peso corporal</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    De esta manera se identifica por medio del código correspondiente, la fecha del ultimo pesaje, locación
+                    del ultimo pesaje, tipo de peso y valor en el cual se refleja como por ejemplo (Kg.)
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/peso_corporal.jpg" class="thumbnail" data-lightbox="Hierrosyseñales" data-title="Peso corporal">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/peso_corporal.jpg" alt="Peso corporal" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

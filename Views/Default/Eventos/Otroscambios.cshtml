@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Otros cambios";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            En esta sección de la aplicación usted podrá modificar parámetros establecidos anterior mente para cada uno de sus animales si
+            así lo profiere
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Otroscambios">Otros cambios</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Otroscambios">Otros cambios</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Entre los parámetros que podrá cambiar se encuentran los siguientes valores:
+                </p>
+                <ul>
+                    <li>Fecha: Día del nacimiento del animal              </li>
+                    <li>Locación: Lugar donde nació el animal             </li>
+                    <li>Id. Electrónico: numero definido para el animal   </li>
+                    <li>Nombre: Denominación para el animal               </li>
+                    <li>Código: Carácter único de identidad               </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/otros_cambios.jpg" class="thumbnail" data-lightbox="Otroscambios" data-title="Otros cambios">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/otros_cambios.jpg" alt="Otros cambios" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Iniciar sesión";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Para iniciar sesión debe estar previamente registrado en el sistema, de igual forma puede hacerlo a través
+            de nuestro sitio web www.softsupply.com o en el botón de registro que se muestra en la parte inferior de la
+            pantalla de la aplicación.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Iniciarsesion">Iniciar sesión</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Iniciarsesion">Iniciar sesión</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Es importante mantener una cuenta activa en la aplicación ya que de esta forma puede mantener sus datos sincronizados con
+                    nuestro servidor y contar con un respaldo.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/iniciodesesion.jpg" class="thumbnail" data-lightbox="Iniciarsesion" data-title="Menú iniciar sesión">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/iniciodesesion.jpg" alt="Menú iniciar sesión" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

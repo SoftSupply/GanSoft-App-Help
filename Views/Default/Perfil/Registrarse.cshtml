@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Registrarse";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Para registrarse debe completar el formulario que se muestra e su pantalla rellenando cada campo con la información
+            correspondiente al igual que también puede realizar su registro a través de nuestro sitio web www.softsupply.com
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Registrarse">Registrarse</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Registrarse">Registrarse</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li>Nombre de usuario: determina el nombre de la cuenta con la cual iniciara sesión en la aplicación.</li>
+                    <li>
+                        Correo electrónico: de esta manera mantiene su cuenta enlazada con los servicios de e-mail y poder recuperar su contraseña
+                        si llegara a olvidarla.
+                    </li>
+                    <li>
+                        Contraseña: proporciona al sistema una clave única suministrada por el usuario y de esa manera poder tener acceso a la
+                        información de su cuenta al momento de ingresar.
+                    </li>
+                    <li>País: determina la locación en la que se encuentra al momento de realizar su registro.</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/registro.jpg" class="thumbnail" data-lightbox="Registrarse" data-title="Menú registrarse">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/registro.jpg" alt="Menú registrarse" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
