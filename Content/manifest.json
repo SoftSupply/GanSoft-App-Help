@@ -1,0 +1,145 @@
+{
+  "Name": "GanSoftApp",
+  "Title": "GanSoft App",
+  "Description": "Aplicación especializada para el manejo de rebaños",
+  "Index": [
+    {
+      "Title": "<b>Perfil</b>",
+      "Items": [
+        {
+          "Title": "Principal",
+          "Link": "GanSoftApp?id=Perfil&key=Principal"
+        },
+        {
+          "Title": "Iniciar sesión",
+          "Link": "GanSoftApp?id=Perfil&key=Iniciarsesion"
+        },
+        {
+          "Title": "Información",
+          "Link": "GanSoftApp?id=Perfil&key=Informacion"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Hacienda</b>",
+      "Items": [
+        {
+          "Title": "Datos generales",
+          "Link": "GanSoftApp?id=Hacienda&key=Datosgenerales"
+        },
+        {
+          "Title": "Terminología",
+          "Link": "GanSoftApp?id=Hacienda&key=Terminologia"
+        },
+        {
+          "Title": "Parámetros",
+          "Link": "GanSoftApp?id=Hacienda&key=Parametros"
+        },
+        {
+          "Title": "Automatizaciones",
+          "Link": "GanSoftApp?id=Hacienda&key=Automatizaciones"
+        },
+        {
+          "Title": "Cambio de hacienda",
+          "Link": "GanSoftApp?id=Hacienda&key=Cambiodehacienda"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Códigos</b>",
+      "Items": [
+        {
+          "Title": "Principal",
+          "Link": "GanSoftApp?id=Codigos&key=Principal"
+        },
+        {
+          "Title": "Lista de acciones",
+          "Link": "GanSoftApp?id=Codigos&key=listadeacciones"
+        },
+        {
+          "Title": "Plan sanitario",
+          "Link": "GanSoftApp?id=Codigos&key=Plansanitario"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Animales</b>",
+      "Items": [
+        {
+          "Title": "Principal",
+          "Link": "GanSoftApp?id=Animales&key=Principal"
+        },
+        {
+          "Title": "Distribución",
+          "Link": "GanSoftApp?id=Animales&key=Distribucion"
+        },
+        {
+          "Title": "Detalles del animal",
+          "Link": "GanSoftApp?id=Animales&key=Detallesdelanimal"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Eventos</b>",
+      "Items": [
+        {
+          "Title": "Cambios de lote",
+          "Link": "GanSoftApp?id=Eventos&key=Cambiosdelote"
+        },
+        {
+          "Title": "Notificación de inventario",
+          "Link": "GanSoftApp?id=Eventos&key=Notificaciondeinv"
+        },
+        {
+          "Title": "Peso corporal",
+          "Link": "GanSoftApp?id=Eventos&key=Pesocorporal"
+        },
+        {
+          "Title": "Condición corporal",
+          "Link": "GanSoftApp?id=Eventos&key=Condicioncorporal"
+        },
+        {
+          "Title": "Servicio",
+          "Link": "GanSoftApp?id=Eventos&key=Servicio"
+        },
+        {
+          "Title": "Revisión",
+          "Link": "GanSoftApp?id=Eventos&key=Revision"
+        },
+        {
+          "Title": "Parto",
+          "Link": "GanSoftApp?id=Eventos&key=Parto"
+        },
+        {
+          "Title": "Pesajes de leche",
+          "Link": "GanSoftApp?id=Eventos&key=Pesasdeleche"
+        },
+        {
+          "Title": "Secado",
+          "Link": "GanSoftApp?id=Eventos&key=Secado"
+        },
+        {
+          "Title": "Diagnóstico clínico",
+          "Link": "GanSoftApp?id=Eventos&key=Diagnosticoclinico"
+        },
+        {
+          "Title": "Otros cambios",
+          "Link": "GanSoftApp?id=Eventos&key=Otroscambios"
+        }
+      ]
+    },
+    {
+      "Title": "<b>Opciones</b>",
+      "Items": [
+        {
+          "Title": "Principal",
+          "Link": "GanSoftApp?id=Opciones&key=Principal"
+        },
+        {
+          "Title": "Sincronización",
+          "Link": "GanSoftApp?id=Opciones&key=Sincronizacion"
+        }
+      ]
+    }
+  ]
+}

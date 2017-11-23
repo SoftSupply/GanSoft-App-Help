@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Animales";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <p class="lead">
+            En esta sección podrá visualizar los animales registrados en su hacienda
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Animales">Animales</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Animales">Animales</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    al igual que en otras opciones también podrá agregar nuevos animales, si
+                    en dado caso no los posee, podrá realizar esta operación presionando el signo de más que se encuentra ubicado en la parte
+                    superior derecha, como también podrá seleccionar el orden en que desea verlos.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/Animales_principal.jpg" class="thumbnail" data-lightbox="Animales" data-title="Animales">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/Animales_principal.jpg" alt="Distribución" />
+                </a>
+                <a href="~/Areas/GanSoftApp/Content/images/captures/Agregar_un_animal.jpg" data-lightbox="Animales" data-title="Agregar un animal"></a>
+            </div>
+        </div>
+    </div>
+</article>

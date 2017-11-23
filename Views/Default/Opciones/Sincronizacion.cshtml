@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Sincronzación";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Activando la función de sincronización podrá obtener un respaldo de la información de su hacienda ya que se mantendrá enlazada con
+            nuestro servidor virtual.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Sincronizacion">Sincronización</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Sincronizacion">Sincronización</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Al momento de realizar la sincronización verifique que su conexión web ya que de tener algún problema de conectividad la
+                    transferencia de archivos puede resultar nula al momento de procesarla.
+                </p>
+                <p>
+                    Al activar la opción de sincronización podrá ver la fecha de la última vez que estuvo conectada 
+                    con el servidor
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/captures/sincronizacion.jpg" class="thumbnail" data-lightbox="Sincronizacion" data-title="Sincronización">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/captures/sincronizacion.jpg" alt="Sincronización" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>Registros sincronizados: cantidad de registros guardados</li>
+            <li>Configuraciones sincronizadas: configuraciones guardadas</li>
+            <li>Códigos sincronizados: códigos guardados</li>
+            <li>Animales sincronizados: cantidad de animales guardados</li>
+            <li>Pendiente por sincronizar: datos pendientes por respaldar</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>Nuevos registros: nuevos datos pendientes por sincronizar</li>
+            <li>Registros modificados: cantidad de registros modificados después de la sincronización</li>
+            <li>Registros eliminados: cantidad de elementos eliminados después de la sincronización</li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <p>
+            Al cabo de poder llevar un registro completo de todos los archivos respaldados en nuestro servidor y que usted se mantenga
+            al tanto de todo de una manera fácil y concreta de procesar.
+        </p>
+    </div>
+</article>

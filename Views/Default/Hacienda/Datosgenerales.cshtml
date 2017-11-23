@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Datos generales";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            En la sección de datos generales debe completar el formulario que hace parte de su hacienda y así configurarla de la mejor
+            manera rellenando cada campo con la información correspondiente.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Datosgenerales">Datos generales</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Hierrosyseñales">Hierros y señales</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li>
+                        Nombre de la hacienda: al completar este campo mantiene su hacienda identificada y diferenciada de alguna otra que posea en
+                        su cuenta registrada
+                    </li>
+                    <li>Ubicación: espacio geográfico de la hacienda para localizarla de manera correcta</li>
+                    <li>Propietario: persona responsable de la hacienda o en su defecto dueño único de la misma</li>
+                    <li>
+                        Explotación: define el tipo de ganado que habita en la hacienda y la producción que se obtendrá del mismo entre las cuales
+                        se encuentra doble propósito, cría, leche y ceba.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/datosgenerales.jpg" class="thumbnail" data-lightbox="Datosgenerales" data-title="Menú datos generales">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/datosgenerales.jpg" alt="Menú datos generales" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

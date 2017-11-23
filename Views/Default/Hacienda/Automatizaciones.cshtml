@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Automatizaciones";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            En la sección de automatizaciones se configuran las variables de cambios automáticos, de acuerdo a su peso, edad
+            o ambos.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Automatizaciones">Automatizaciones</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Automatizaciones">Automatizaciones</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Entre los cuales puede configurar:
+                </p>
+                <ul>
+                    <li>Secado igual a destete: podrá activar esta función si el secado y el destete coinciden en la misma programación     </li>
+                    <li>Mover crías con la madre: esta opción le permite cambiar de locación a la madre con la cría                         </li>
+                    <li>Producción ajustada: número de días estipulados por el usuario                                                      </li>
+                    <li>Cambios de estado automático: Active la opción que mejor le corresponda, Ninguno, Ambos, por Peso o por Edad.       </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/automatizaciones.jpg" class="thumbnail" data-lightbox="Automatizaciones" data-title="Menú automatizaciones">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/automatizaciones.jpg" alt="Menú automatizaciones" />
+                </a>
+                <a href="~/Areas/GanSoftApp/Content/images/captures/secado_destete.jpg" data-lightbox="Automatizaciones" data-title="Ventana de automatizaciones"></a>
+            </div>
+        </div>
+    </div>
+</article>

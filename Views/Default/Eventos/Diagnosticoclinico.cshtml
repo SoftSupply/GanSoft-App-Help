@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Diagnóstico clínico";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <p class="lead">
+            En la sección de diagnóstico clínico se registran las variables de tratamientos y resúmenes clínicos del animal
+            al igual que la locación del mismo
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Diagnostico">Diagnóstico clínico</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Diagnostico">Diagnóstico clínico</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    En esta sección podrá registrar los diagnósticos clínicos relacionados con los animales que se encuentran ubicados en su hacienda
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/images/captures/diagnostico_clinico_vacuna.jpg" class="thumbnail" data-lightbox="Hierrosyseñales" data-title="Diagnostico clínico">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/diagnostico_clinico_vacuna.jpg" alt="Diagnostico clínico" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Detalles del animal";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>
+                @ViewBag.Title
+                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+                {
+                    <br /><small>@ViewBag.SubTitle</small>
+                }
+            </h1>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            En los detalles del animal podrá visualizar las características establecidas para cada uno de los animales que se encuentran en la
+            hacienda.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Detallesdelanimal">Detalles del animal</a>
+            </li>
+            <li>
+                <a href="#Detallesdeproduccion">Detalles del animal según su producción</a>
+            </li>
+            <li>
+                <a href="#Detallesdereproduccion">Detalles del animal según su reproducción</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Detallesdelanimal">Detalles del animal</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Entre los detalles generales se pueden encontrar:
+                </p>
+                <ul>
+                    <li>Id. Electrónico: numeración que identifica al animal en la hacienda y facilita su localización en la lista de búsqueda. </li>
+                    <li>Nombre: aquí apareceré el nombre o apodo establecido para el animal.  </li>
+                    <li>Nacimiento: fecha en la que nació en animal. </li>
+                    <li>Madre: nombre de la madre si se encuentra disponible. </li>
+                    <li>Padre: nombre del padre del animal si se encuentra disponible. </li>
+                </ul>
+            </div>
+        </div>
+        <p>
+            Por otro lado, también se muestran las características del animal en las cuales se muestra:
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul>
+            <li>Raza: grupo étnico al que pertenece el animal.</li>
+            <li>Color: descripción de algún carácter físico del pelaje.</li>
+            <li>Propietario: encargado del animal o en su defecto el dueño de los mismos.</li>
+            <li>Clasificación: grupo al que pertenece el animal.</li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Detallesdeproduccion">Detalles del animal según su producción</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Estatus productivo:
+                </p>
+                <ul>
+                    <li>Fecha de inicio.      </li>
+                    <li>Días de producción.   </li>
+                    <li>Producción total.     </li>
+                    <li>Producción ajustada.  </li>
+                    <li>Próximo secado.       </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Detallesdereproduccion">Detalles del animal según su reproducción</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Estatus reproductivo:
+                </p>
+                <ul>
+                    <li> Fecha de próximo parto.     </li>
+                    <li> Fecha de próxima revisión.  </li>
+                    <li> Fecha de próximo celo.      </li>
+                    <li> Edad del primer servicio.   </li>
+                    <li> Edad del primer parto.      </li>
+                    <li> Intervalo de partos.        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
