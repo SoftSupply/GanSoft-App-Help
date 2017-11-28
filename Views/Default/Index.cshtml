@@ -1,18 +1,28 @@
 @{
     ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
-    ViewBag.Title = ViewContext.RouteData.Values["controller"];
-    ViewBag.SubTitle = ViewContext.RouteData.Values["action"];
+    ViewBag.Title = "GanSoft App";
+    ViewBag.SubTitle = "";
     ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
 }
 
 <div class="row">
+    <div class="page-header">
+        <h1>
+            @ViewBag.Title
+            @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
+            {
+                <br /><small>@ViewBag.SubTitle</small>
+            }
+        </h1>
+    </div>
+
     <div class="col-md-12">
         <p class="lead">
             Guía que describe detalladamente todas las funciones del sistema GanSoft Pro para una mejor experiencia del usuario.
         </p>
     </div>
     <div class="col-md-2 text-center">
-        <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/logo.png" alt="Logo" />
+        <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/logo.png" alt="Logo" />
     </div>
     <div class="col-md-10">
         <p>
