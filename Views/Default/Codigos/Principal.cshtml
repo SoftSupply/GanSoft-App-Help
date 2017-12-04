@@ -7,19 +7,11 @@
 
 <article class="row">
     <div class="col-md-12">
-        <div class="page-header">
-            <h1>
-                @ViewBag.Title
-                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
-                {
-                    <br /><small>@ViewBag.SubTitle</small>
-                }
-            </h1>
-        </div>
+        @Html.Partial("_Title")
     </div>
     <div class="col-md-12">
         <p class="lead">
-            Los códigos son parámetros claves prestablecidos por el sistema con la función de mantener un orden estructural de todo el
+            Los códigos son parámetros claves preestablecidos por el sistema con la función de mantener un orden estructural de todo el
             contenido de su hacienda
         </p>
     </div>
@@ -45,8 +37,8 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <a href="~/Areas/GanSoftApp/Content/images/captures/principal_codigo.jpg" class="thumbnail" data-lightbox="Codigos" data-title="Menú código">
-                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/principal_codigo.jpg" alt="Menú código" />
+                <a href="~/Areas/GanSoftApp/Content/img/captures/principal_codigo.jpg" class="thumbnail" data-lightbox="Codigos" data-title="Menú código">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/principal_codigo.jpg" alt="Menú código" />
                 </a>
             </div>
         </div>

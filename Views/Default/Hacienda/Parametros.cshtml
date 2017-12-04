@@ -3,19 +3,12 @@
     ViewBag.Title = "Parámetros";
     ViewBag.SubTitle = "";
     ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+    var icon = "<i class='gs gs-fw gs-5x gs-main-control'></i>";
 }
 
 <article class="row">
     <div class="col-md-12">
-        <div class="page-header">
-            <h1>
-                @ViewBag.Title
-                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
-                {
-                    <br /><small>@ViewBag.SubTitle</small>
-                }
-            </h1>
-        </div>
+        @Html.Partial("_Title", new ViewDataDictionary(ViewData) { { "icon", icon } })
     </div>
     <div class="col-md-12">
         <p class="lead">
@@ -50,8 +43,8 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <a href="~/Areas/GanSoftApp/Content/images/captures/parametros.jpg" class="thumbnail" data-lightbox="Hierrosyseñales" data-title="Menú parámetros">
-                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/parametros.jpg" alt="Menú parámetros" />
+                <a href="~/Areas/GanSoftApp/Content/img/captures/parametros.jpg" class="thumbnail" data-lightbox="Hierrosyseñales" data-title="Menú parámetros">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/parametros.jpg" alt="Menú parámetros" />
                 </a>
             </div>
         </div>

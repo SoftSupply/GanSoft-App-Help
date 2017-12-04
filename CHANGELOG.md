@@ -2,5 +2,5 @@
 
 ## [1.0.0]
 ### Novedades
-- Lanzamiento incial
+- Lanzamiento inicial
 

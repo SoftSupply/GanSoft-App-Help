@@ -3,19 +3,12 @@
     ViewBag.Title = "Terminología";
     ViewBag.SubTitle = "";
     ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+    var icon = "<i class='gs gs-fw gs-5x gs-main-definition'></i>";
 }
 
 <article class="row">
     <div class="col-md-12">
-        <div class="page-header">
-            <h1>
-                @ViewBag.Title
-                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
-                {
-                    <br /><small>@ViewBag.SubTitle</small>
-                }
-            </h1>
-        </div>
+        @Html.Partial("_Title", new ViewDataDictionary(ViewData) { { "icon", icon } })
     </div>
     <div class="col-md-12">
         <p class="lead">
@@ -41,12 +34,12 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <a href="~/Areas/GanSoftApp/Content/images/captures/terminologia_principal.jpg" class="thumbnail" data-lightbox="Terminologia" data-title="Menú Terminología">
-                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/terminologia_principal.jpg" alt="Menú Terminología" />
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_principal.jpg" class="thumbnail" data-lightbox="Terminologia" data-title="Menú Terminología">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/terminologia_principal.jpg" alt="Menú Terminología" />
                 </a>
-                <a href="~/Areas/GanSoftApp/Content/images/captures/terminologia_h.jpg" data-lightbox="Terminologia" data-title="Ventana de terminología de hembras"></a>
-                <a href="~/Areas/GanSoftApp/Content/images/captures/terminologia_m.jpg" data-lightbox="Terminologia" data-title="Ventana de terminología de maschos"></a>
-                <a href="~/Areas/GanSoftApp/Content/images/captures/terminologia_otros.jpg" data-lightbox="Terminologia" data-title="Ventana de otras terminologías"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_h.jpg" data-lightbox="Terminologia" data-title="Ventana de terminología de hembras"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_m.jpg" data-lightbox="Terminologia" data-title="Ventana de terminología de maschos"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_otros.jpg" data-lightbox="Terminologia" data-title="Ventana de otras terminologías"></a>
             </div>
         </div>
     </div>

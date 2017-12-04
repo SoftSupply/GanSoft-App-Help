@@ -6,15 +6,7 @@
 }
 <article class="row">
     <div class="col-md-12">
-        <div class="page-header">
-            <h1>
-                @ViewBag.Title
-                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
-                {
-                    <br /><small>@ViewBag.SubTitle</small>
-                }
-            </h1>
-        </div>
+        @Html.Partial("_Title")
     </div>
     <div class="col-md-12">
         <p class="lead">
@@ -49,10 +41,10 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <a href="~/Areas/GanSoftApp/Content/images/captures/Menu_principal.jpg" class="thumbnail" data-lightbox="menuprincipal" data-title="Menú principal">
-                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/Menu_principal.jpg" alt="Menú principal" />
+                <a href="~/Areas/GanSoftApp/Content/img/captures/Menu_principal.jpg" class="thumbnail" data-lightbox="menuprincipal" data-title="Menú principal">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/Menu_principal.jpg" alt="Menú principal" />
                 </a>
-                <a href="~/Areas/GanSoftApp/Content/images/captures/Inicio_sin_datos.jpg" data-lightbox="menuprincipal" data-title="Menú sin datos"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/Inicio_sin_datos.jpg" data-lightbox="menuprincipal" data-title="Menú sin datos"></a>
             </div>
         </div>
     </div>

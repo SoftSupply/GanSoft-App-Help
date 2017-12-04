@@ -7,15 +7,7 @@
 
 <article class="row">
     <div class="col-md-12">
-        <div class="page-header">
-            <h1>
-                @ViewBag.Title
-                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
-                {
-                    <br /><small>@ViewBag.SubTitle</small>
-                }
-            </h1>
-        </div>
+        @Html.Partial("_Title")
     </div>
 
     <div class="col-md-12">
@@ -40,8 +32,8 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <a href="~/Areas/GanSoftApp/Content/images/captures/diagnostico_clinico_vacuna.jpg" class="thumbnail" data-lightbox="Hierrosyseñales" data-title="Diagnostico clínico">
-                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/diagnostico_clinico_vacuna.jpg" alt="Diagnostico clínico" />
+                <a href="~/Areas/GanSoftApp/Content/img/captures/diagnostico_clinico_vacuna.jpg" class="thumbnail" data-lightbox="Hierrosyseñales" data-title="Diagnostico clínico">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/diagnostico_clinico_vacuna.jpg" alt="Diagnostico clínico" />
                 </a>
             </div>
         </div>

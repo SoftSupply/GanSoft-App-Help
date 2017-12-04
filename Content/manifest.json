@@ -4,7 +4,7 @@
   "Description": "Aplicación especializada para el manejo de rebaños",
   "Index": [
     {
-      "Title": "<b>Perfil</b>",
+      "Title": "<i class='fa fa-fw fa-user hidden-xs'></i><b>Perfil</b>",
       "Items": [
         {
           "Title": "Principal",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "Title": "<b>Hacienda</b>",
+      "Title": "<i class='gs gs-fw gs-registration-herd hidden-xs'></i><b>Hacienda</b>",
       "Items": [
         {
           "Title": "Datos generales",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "Title": "<b>Códigos</b>",
+      "Title": "<i class='gs gs-fw gs-main-code hidden-xs'></i><b>Códigos</b>",
       "Items": [
         {
           "Title": "Principal",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "Title": "<b>Animales</b>",
+      "Title": "<i class='gs gs-fw gs-main hidden-xs'></i><b>Animales</b>",
       "Items": [
         {
           "Title": "Principal",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "Title": "<b>Eventos</b>",
+      "Title": "<i class='gs gs-fw gs-main-calendar hidden-xs'></i><b>Eventos</b>",
       "Items": [
         {
           "Title": "Cambios de lote",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "Title": "<b>Opciones</b>",
+      "Title": "<i class='gs gs-fw gs-main-settings hidden-xs'></i><b>Opciones</b>",
       "Items": [
         {
           "Title": "Principal",

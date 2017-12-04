@@ -7,15 +7,7 @@
 
 <article class="row">
     <div class="col-md-12">
-        <div class="page-header">
-            <h1>
-                @ViewBag.Title
-                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
-                {
-                    <br /><small>@ViewBag.SubTitle</small>
-                }
-            </h1>
-        </div>
+        @Html.Partial("_Title")
     </div>
     <div class="col-md-12">
         <p class="lead">
@@ -39,12 +31,12 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <a href="~/Areas/GanSoftApp/Content/images/captures/distribucion_inventario.jpg" class="thumbnail" data-lightbox="Distribucion" data-title="Destribución de inventario">
-                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/distribucion_inventario.jpg" alt="Distribución de inventario" />
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_inventario.jpg" class="thumbnail" data-lightbox="Distribucion" data-title="Destribución de inventario">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/distribucion_inventario.jpg" alt="Distribución de inventario" />
                 </a>
-                <a href="~/Areas/GanSoftApp/Content/images/captures/distribucion_estatus_reproductivo.jpg" data-lightbox="Distribucion" data-title="Ventana de reproducción"></a>
-                <a href="~/Areas/GanSoftApp/Content/images/captures/distribucion_lotes.jpg" data-lightbox="Distribucion" data-title="Ventana de lotes"></a>
-                <a href="~/Areas/GanSoftApp/Content/images/captures/distribucion_productivo.jpg" data-lightbox="Distribucion" data-title="Ventana de producción"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_estatus_reproductivo.jpg" data-lightbox="Distribucion" data-title="Ventana de reproducción"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_lotes.jpg" data-lightbox="Distribucion" data-title="Ventana de lotes"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_productivo.jpg" data-lightbox="Distribucion" data-title="Ventana de producción"></a>
             </div>
         </div>
     </div>

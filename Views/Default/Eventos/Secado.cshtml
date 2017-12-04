@@ -7,15 +7,7 @@
 
 <article class="row">
     <div class="col-md-12">
-        <div class="page-header">
-            <h1>
-                @ViewBag.Title
-                @if (!string.IsNullOrEmpty(ViewBag.SubTitle))
-                {
-                    <br /><small>@ViewBag.SubTitle</small>
-                }
-            </h1>
-        </div>
+        @Html.Partial("_Title")
     </div>
     <div class="col-md-12">
         <p class="lead">
@@ -43,8 +35,8 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <a href="~/Areas/GanSoftApp/Content/images/captures/secado.jpg" class="thumbnail" data-lightbox="Secado" data-title="Secado">
-                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/images/captures/secado.jpg" alt="Secado" />
+                <a href="~/Areas/GanSoftApp/Content/img/captures/secado.jpg" class="thumbnail" data-lightbox="Secado" data-title="Secado">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/secado.jpg" alt="Secado" />
                 </a>
             </div>
         </div>
