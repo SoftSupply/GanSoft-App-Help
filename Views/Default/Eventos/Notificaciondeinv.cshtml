@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Notificación de inventario";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title")
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            La notificación de inventario es la forma de representar que el animal existe dentro de la misma hacienda ubicándolo de manera
+            sencilla al colocar el código del animal
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Notificaciondeinv">Notificación de inventario</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Notificaciondeinv">Notificación de inventario</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    En la parte superior de la pantalla y muestra la fecha del momento en que reporto al
+                    animal y la locación en la que se encontraba.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/notificacion_de_inventario.jpg" class="thumbnail" data-lightbox="Notificaciondeinv" data-title="Notificación de inventario">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/notificacion_de_inventario.jpg" alt="Notificación de inventario" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

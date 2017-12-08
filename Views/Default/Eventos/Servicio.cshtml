@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Servicio";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title")
+    </div>
+
+    <div class="col-md-12">
+        <p class="lead">
+            Este evento permite notificar la monta natural, inseminación artificial o transferencia de embriones a los diferentes vientres del rebaño
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Servicio">Servicio</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Servicio">Servicio</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Para llevar a cabo la notificación del evento este servicio requiere de:
+                </p>
+                <ul>
+                    <li> Código del vientre                                                                                              </li>
+                    <li> Fecha del servicio                                                                                              </li>
+                    <li> Número del servicio                                                                                             </li>
+                    <li> Locación actual (si desea notificar un cambio de locación puede hacerlo cambiando el código de la locación)     </li>
+                    <li> Código del reproductor (Toro/Semen/Embrión)                                                                     </li>
+                    <li> Días a la próxima revisión (Parámetro que puede ser modificado en el momento de introducir el evento)           </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/servicio.jpg" class="thumbnail" data-lightbox="Servicio" data-title="Servicio">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/servicio.jpg" alt="Servicio" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

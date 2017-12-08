@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Opciones";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title")
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Aquí podrá obtener la información de contacto con nuestro sistema de soporte, Corroborar la versión actual de la aplicación.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Opciones">Opciones</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Opciones">Opciones</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Por otro lado puede activar la opción de sincronizar su cuenta de usuario con nuestro servidor.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/opciones.jpg" class="thumbnail" data-lightbox="Opciones" data-title="Opciones">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/opciones.jpg" alt="Opciones" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,18 @@
+{
+  "name": "GanSoft-App-Help",
+  "homepage": "https://github.com/SoftSupply/GanSoft-App-Help",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-gansoft": "^1.1.0"
+  }
+}

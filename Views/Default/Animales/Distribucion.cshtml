@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Distribución";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title")
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            La distribución tiene la función de separar su ganado en las diferentes categorías que se plantean según la configuración
+            establecida para cada animal
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Distribucion">Distribución</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Distribucion">Distribución</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    se mostrara una lista graficada y completa de cada animal en la hacienda que alberga la misma configuración.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_inventario.jpg" class="thumbnail" data-lightbox="Distribucion" data-title="Destribución de inventario">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/distribucion_inventario.jpg" alt="Distribución de inventario" />
+                </a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_estatus_reproductivo.jpg" data-lightbox="Distribucion" data-title="Ventana de reproducción"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_lotes.jpg" data-lightbox="Distribucion" data-title="Ventana de lotes"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/distribucion_productivo.jpg" data-lightbox="Distribucion" data-title="Ventana de producción"></a>
+            </div>
+        </div>
+    </div>
+</article>

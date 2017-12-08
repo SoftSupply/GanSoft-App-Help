@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Revisión";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title")
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            En la sección de revisión podrá ubicar al animal del cual desea estar informado por medio del código correspondiente al mismo.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Revision">Revisión</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Revision">Revisión</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    También se mostrarán los detalles de las revisiones anteriores como, por ejemplo:
+                </p>
+                <ul>
+                    <li> Fecha: Día de última revisión para el animal                                </li>
+                    <li> Numero: Cantidad de revisiones para el mismo animal                         </li>
+                    <li> Locación: Lugar donde se encontraba el animal al momento de la revisión     </li>
+                    <li> Diagnostico: Resultado posterior a la revisión del animal                   </li>
+                    <li> Tratamientos: Si posee alguno el animal                                     </li>
+                    <li> Días de gestación: Cantidad de días estipulados después de la revisión      </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/revision.jpg" class="thumbnail" data-lightbox="Revision" data-title="Revisión">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/revision.jpg" alt="Revisión" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

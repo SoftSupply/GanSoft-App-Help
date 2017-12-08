@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Códigos";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title")
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Los códigos son parámetros claves preestablecidos por el sistema con la función de mantener un orden estructural de todo el
+            contenido de su hacienda
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#´Codigos">Códigos</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Codigos">Códigos</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Estos se dividen en las siguientes categorías:
+                </p>
+                <ul>
+                    <li>Generales</li>
+                    <li>Características</li>
+                    <li>Diagnósticos</li>
+                    <li>Tratamientos</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/principal_codigo.jpg" class="thumbnail" data-lightbox="Codigos" data-title="Menú código">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/principal_codigo.jpg" alt="Menú código" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

@@ -152,9 +152,11 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings
-# but database connection strings (with potential passwords) will be unencrypted
-*.pubxml
+# TODO: Uncomment the next line to ignore your web deploy settings.
+# By default, sensitive information, such as encrypted password
+# should be stored in the .pubxml.user file.
+#*.pubxml
+*.pubxml.user
 *.publishproj
 
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
@@ -207,7 +209,8 @@ orleans.codegen.cs
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
-#bower_components/
+bower_components/
+components/
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -279,8 +282,8 @@ __pycache__/
 *.pyc
 
 # Cake - Uncomment if you are using it
-# tools/**
-# !tools/packages.config
+tools/**
+!tools/packages.config
 
 # Telerik's JustMock configuration file
 *.jmconfig
@@ -290,5 +293,9 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+### VisualStudio Patch ###
+# By default, sensitive information, such as encrypted password
+# should be stored in the .pubxml.user file.
 
 # End of https://www.gitignore.io/api/visualstudio

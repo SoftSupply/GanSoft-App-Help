@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Listado de acciones";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title")
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            Entre las características de los códigos podrá encontrar según sea la sección elegida diversas funciones
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Listadodeacciones">Listado de acciones</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Listadodeacciones">Listado de acciones</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    entre la lista de códigos podrá encontrar:
+                </p>
+                <ul>
+                    <li>Lote: grupo de animales distribuidos por la hacienda</li>
+                    <li>Plan sanitario: Esta opción permite definir la programación de las vacunas</li>
+                    <li>Color: establece un rasgo físico del animal como el pelaje</li>
+                    <li>Condición corporal: evalúa los aspectos físicos del animal</li>
+                    <li>clasificación: evaluaciones por fenotipo</li>
+                    <li>Propietario: define los encargos de los animales o en su defecto el dueño de los mismos</li>
+                    <li>Raza: determina el tipo de características del animal</li>
+                    <li>Diagnóstico clínico: provee los resultados de las evaluaciones clínicas</li>
+                    <li>Diagnóstico reproductivo: muestra los resultados de las evaluaciones reproductivas del animal</li>
+                    <li>Tratamiento clínico: registra las terapias clínicas del animal</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/codigos1.jpg" class="thumbnail" data-lightbox="Codigos" data-title="Listado de códigos">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/codigos1.jpg" alt="Listado de códigos" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>

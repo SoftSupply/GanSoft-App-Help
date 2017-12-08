@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Terminología";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+    var icon = "<i class='gs gs-fw gs-5x gs-main-definition'></i>";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title", new ViewDataDictionary(ViewData) { { "icon", icon } })
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            La sección de terminología le permite configurar los términos de su ganado dependiendo del sexo, especie o etapa de crecimiento
+            Entre los cuales puede seleccionar Vacunos, Bufalinos, Equinos, Ovinos, Caprinos, Porcinos, Caninos, Felinos y otros
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Terminologia">Terminología</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Terminologia">Terminología</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Al igual que también puede definir las características de su ganado determinando su función en la hacienda y configurarlo dependiendo del sexo del animal
+                    En las cuales se muestran las categorías Lactante, Destetada, Joven y Adulta.
+                    Mientras que en otros cambios se puede definir Semen, Embrión y locación.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_principal.jpg" class="thumbnail" data-lightbox="Terminologia" data-title="Menú Terminología">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/terminologia_principal.jpg" alt="Menú Terminología" />
+                </a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_h.jpg" data-lightbox="Terminologia" data-title="Ventana de terminología de hembras"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_m.jpg" data-lightbox="Terminologia" data-title="Ventana de terminología de maschos"></a>
+                <a href="~/Areas/GanSoftApp/Content/img/captures/terminologia_otros.jpg" data-lightbox="Terminologia" data-title="Ventana de otras terminologías"></a>
+            </div>
+        </div>
+    </div>
+</article>

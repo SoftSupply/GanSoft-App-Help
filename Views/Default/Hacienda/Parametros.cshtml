@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Manifest = MvcApplication.Areas[ViewContext.RouteData.DataTokens["area"].ToString()];
+    ViewBag.Title = "Parámetros";
+    ViewBag.SubTitle = "";
+    ViewBag.MainTitle = $"Ayuda de {ViewBag.Manifest.Title}";
+    var icon = "<i class='gs gs-fw gs-5x gs-main-control'></i>";
+}
+
+<article class="row">
+    <div class="col-md-12">
+        @Html.Partial("_Title", new ViewDataDictionary(ViewData) { { "icon", icon } })
+    </div>
+    <div class="col-md-12">
+        <p class="lead">
+            En la sección de parámetros se establecen los valores de manejo de su rebaño, desde los días de secado hasta la edad mínima al parto.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <ul class="index">
+            <li>
+                <a href="#Parametros">Parámetros</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-12">
+        <h3 id="Parametros">Parámetros</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    Entre los parámetros puede seleccionar entre los siguientes campos:
+                </p>
+                <ul>
+                    <li>Días secado pre-parto: determina los días mínimos de descanso para el animal entre el secado y parto</li>
+                    <li>Días próximos al parto: valor para estimar la fecha en la cual se efectuará un nuevo parto</li>
+                    <li>Días mínima gestación: valor mínimo en el cual se puede establecer un parto</li>
+                    <li>Días máxima gestación: valor máximo en el cual se puede establecer un parto</li>
+                    <li>Días de revisión post-parto: determina los días en los cuales el animal será evaluado después del parto</li>
+                    <li>Días máximos entre revisiones: define el intervalo de revisión entre los diferentes animales</li>
+                    <li>Próximo celo: define los días en los cuales el animal volverá a entrar en celo</li>
+                    <li>Numero de ordeños: determina la cantidad máxima de ordeños al animal por día</li>
+                    <li>Crías por parto: función para determinar el número de crías obtenidas por parto</li>
+                    <li>Edad mínima al parto: valor que define por meses la edad mínima antes del primer parto</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="~/Areas/GanSoftApp/Content/img/captures/parametros.jpg" class="thumbnail" data-lightbox="Hierrosyseñales" data-title="Menú parámetros">
+                    <img class="img-responsive" src="~/Areas/GanSoftApp/Content/img/captures/parametros.jpg" alt="Menú parámetros" />
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
